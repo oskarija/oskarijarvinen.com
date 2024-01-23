@@ -1,0 +1,180 @@
+:root {
+  --middle: 60rem;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+.hide {
+  display: none;
+}
+
+.image {
+  display: flex;
+  max-width: 28rem;
+  border-radius: 0.7rem;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.7rem;
+}
+
+.processimage {
+  display: flex;
+  max-width: var(--middle);
+  border-radius: 0.7rem;
+}
+
+.processimage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.7rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.hellowrap,
+.contentwrap {
+  display: flex;
+  justify-content: center;
+  padding: 6rem 2rem;
+}
+
+.projectswrap,
+.contentwrapdark {
+  display: flex;
+  justify-content: center;
+}
+
+.contentwrapdark {
+  padding: 6rem 2rem;
+}
+
+.aboutwrap {
+  display: flex;
+  justify-content: center;
+}
+
+.hello,
+.content {
+  width: var(--middle);
+  display: flex;
+  gap: 2rem;
+}
+
+.spacer {
+  min-width: 12rem;
+}
+
+.hellocontainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.projects {
+  width: var(--middle);
+  display: flex;
+  flex-direction: column;
+
+  padding: 6rem 2rem 0 2rem;
+  margin: 0;
+}
+
+.projects li {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+  justify-content: space-between;
+  list-style-type: none;
+  max-width: var(--middle);
+  padding: 0 0 6rem 0;
+  margin: 0;
+}
+
+.textcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.projectinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.client,
+.roles,
+.keywords {
+  display: flex;
+  gap: 0.4rem;
+}
+
+ul .projects {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+}
+
+.about {
+  width: var(--middle);
+  padding: 6rem 2rem 6rem 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.abouttext {
+  min-width: 400px;
+}
+
+.links {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+}
+
+/* When screen width is under 1200px */
+@media screen and (max-width: 1200px) {
+  :root {
+    --middle: 50rem;
+  }
+}
+
+/* When screen width is under 860px */
+@media screen and (max-width: 860px) {
+  :root {
+    --middle: 40rem;
+  }
+
+  .hello,
+  .projects li,
+  .about {
+    flex-direction: column;
+  }
+
+  .image {
+    max-width: 100%;
+  }
+
+  .links {
+    padding-top: 1rem;
+  }
+
+  .spacer {
+    display: none;
+  }
+}

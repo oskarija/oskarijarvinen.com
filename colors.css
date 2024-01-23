@@ -1,0 +1,47 @@
+:root {
+  --firbackcolor: rgba(255, 255, 255, 1);
+  --secbackcolor: rgba(0, 0, 0, 0.05);
+  --buttoncolor: rgb(221, 221, 221);
+  --buttonhover: rgb(233, 233, 233);
+  --projectinfo: rgba(0, 0, 0, 0.6);
+}
+
+html {
+  background-color: var(--firbackcolor);
+}
+
+.image,
+.processimage {
+  background-color: var(--firbackcolor);
+}
+
+.projectswrap,
+.contentwrapdark {
+  background-color: var(--secbackcolor);
+}
+
+a.button {
+  color: initial;
+  background-color: var(--buttoncolor);
+  transition: 0.2s;
+}
+
+a.button:hover {
+  background-color: var(--buttonhover);
+  transition: 0.2s;
+}
+
+a#backbutton {
+  color: initial;
+  background-color: var(--buttoncolor);
+  transition: 0.2s;
+}
+
+a#backbutton:hover {
+  background-color: var(--buttonhover);
+  transition: 0.2s;
+}
+
+.projectinfo {
+  color: var(--projectinfo);
+}

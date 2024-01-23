@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oskari Järvinen - UX/UI Designer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/normalize.css" />
+    <link rel="stylesheet" href="/typography.css" />
+    <link rel="stylesheet" href="/buttonlink.css" />
+    <link rel="stylesheet" href="/colors.css" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="backbuttonspacer">
+      <a href="/index.html" id="backbutton">&lt;-</a>
+    </div>
+
+    <div class="wrapper">
+      <div class="hellowrap">
+        <div class="hello">
+          <div class="hellocontainer">
+            <div class="textcontent">
+              <h1 class="projectname">
+                Business Model Canvas Tool UI Concept, Design and Prototyping
+              </h1>
+              <div class="projectinfo">
+                <div class="client">
+                  <p>Client: Turbiini</p>
+                  <p>2023</p>
+                </div>
+                <div class="roles">
+                  <p>UX Design</p>
+                  <p>UI Design</p>
+                  <p>Team Lead</p>
+                </div>
+                <div class="keywords">
+                  <p>Prototyping</p>
+                </div>
+              </div>
+              <p class="projectdescription">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                egestas ante nec pretium pellentesque. Maecenas hendrerit, eros
+                ac blandit facilisis, leo nibh commodo metus, eget mollis dui
+                lectus quis urna.
+              </p>
+            </div>
+          </div>
+          <div class="spacer"></div>
+        </div>
+      </div>
+
+      <div class="contentwrapdark">
+        <h2 class="hide"></h2>
+        <ul class="images">
+          <li>
+            <div class="processimage">
+              <img src="/images/bmc.png" alt="Dark mode user interface" />
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="contentwrap">
+        <div class="content">
+          <div class="hellocontainer">
+            <div class="textcontent">
+              <h2 class="">Project assignment</h2>
+              <p class="projectdescription">
+                After discussing with the client, we identified four main points
+                as
+                <span class="bold"> the motivation for the project: </span>
+              </p>
+              <ol class="projectdescription">
+                <li>
+                  The US-based Business Model Canvas tool our client had been
+                  using couldn't be used for teaching purposes in Finland due to
+                  legal (GDPR) limitations.
+                </li>
+                <li>
+                  A similar tool that could be used in education in their
+                  organisation doesn't exist.
+                </li>
+                <li>
+                  The tool our client had been using has usability issues they
+                  felt like shouldn't exist.
+                </li>
+              </ol>
+              <p>
+                We were tasked with
+                <span class="bold"
+                  >conceptualizing and prototyping the user interface for such
+                  business model canvas tool</span
+                >
+                that could be developed further inside our clients organisation
+                to meet the needs of their work.
+              </p>
+            </div>
+          </div>
+
+          <div class="spacer"></div>
+        </div>
+      </div>
+
+      <div class="contentwrapdark">
+        <h2 class="hide"></h2>
+        <ul class="projects">
+          <li>
+            <div class="processimage">
+              <img src="/images/bmc.png" alt="Dark mode user interface" />
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="contentwrap">
+        <div class="content">
+          <div class="hellocontainer">
+            <div class="textcontent">
+              <h2 class="">Process</h2>
+
+              <h3>Recognizing Usability Issues</h3>
+              <p class="projectdescription">
+                Recognizing usability issues with the client's current tool, we
+                opted to delve directly into understanding their needs. By
+                swiftly addressing these concerns in an initial prototype, we
+                could subsequently begin testing with other potential users of
+                the product.
+              </p>
+              <p class="projectdescription">
+                Usability challenges faced by the client in using the existing
+                tool that we recognized were:
+              </p>
+              <ul>
+                <li>
+                  <p class="bold">Information architecture is confusing</p>
+                  <ul>
+                    <li>
+                      In which folder, project, or team does each canvas belong?
+                    </li>
+                    <li>
+                      What do teams and projects mean? In other words, the
+                      naming was confusing.
+                    </li>
+                  </ul>
+                </li>
+
+                <li>
+                  <p class="bold">
+                    The flow for creating a new file is too complicated.
+                  </p>
+                  <ul>
+                    <li>
+                      The user cannot start to fill out the canvas before naming
+                      it and choosing its location.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <p class="bold">File management is difficult.</p>
+                  <ul>
+                    <li>
+                      What if the user wants to change the location of the
+                      canvas after starting to work on it?
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <p class="bold">
+                    The service does not provide an easy way to create and
+                    review multiple versions of a canvas.
+                  </p>
+                  <ul>
+                    <li>
+                      One main benefit of using a business model canvas
+                      (especially for a course instructor) is to iterate and to
+                      compare different versions over time.
+                    </li>
+                  </ul>
+                </li>
+                <br>
+              </ul>
+              <h3>Understanding the User</h3>
+              <p>
+                Before creating the first prototype we had to map the tool's
+                possible user base:
+                <!-- #turbiiniuserbase can be used here -->
+                <ul id="turbiiniuserbase">
+                    <li>Business course instructors</li>
+                    <li>Individuals actively participating in the operations of Turbiini</li>
+                    <li>Students functioning as entrepreneurs.</li>
+                </ul>  
+              </p>
+              <p>
+                This understanding formed the foundation for our design
+                approach, enabling us to conceptualize a tool that addresses the
+                unique requirements of each user group. This would lead to
+                design solutions that take every group into consideration.
+              </p>
+            </div>
+          </div>
+
+          <div class="spacer"></div>
+        </div>
+      </div>
+
+      <div class="contentwrapdark">
+        <div class="content">
+          <div class="hellocontainer">
+            <div class="textcontent">
+              <h2 class="">Solutions</h2>
+              <h3>Simplifying the Information Architecture</h3>
+              <p class="projectdescription">
+                In our effort to enhance user experience, we implemented the following improvements:
+              </p>
+              <ul>
+                <li>We narrowed down potential elements in the folder structure to either <span class="bold"> canvases</span> or <span class="bold"> folders.</span></li>
+                <li>We opted not to use the "Team" or "Project" prefix for folders aiming to diminish the user's need to figure out a intended usage for each.</li>
+                <li>A new folder is simply titled "Untitled" providing flexibility for users to name it depending on their own needs or preferences.</li>
+                <li>Folders created by the user are visible in the <span class="bold"> "Your folders" </span>view.</li>
+                <li>Folders shared with the user are visible in the <span class="bold"> "Shared to you"</span> view.</li>
+                <br>
+              </ul>
+              <div class="verspacer"></div>
+              <h3>Streamlined Flow for Creating a New Canvas</h3>
+              <p class="projectdescription">In our pursuit of optimizing the user experience we incorporated the following enhancements:</p>
+              <ul>
+                <li>Users have the ability to create a new canvas or folder with just one click.</li>
+                <li>Any newly created canvas by the user is automatically transferred to the drafts folder.</li>
+              </ul>
+              <p class="projectdescription">
+                These modifications address three distinct user scenarios:
+              </p>
+              <ol>
+                <li>Users who prefer to begin filling the canvas right away and may choose to relocate it later.</li>
+                <li>Users who want to rename their canvas immediately after creation.</li>
+                <li>Users who need to relocate the canvas file right after its creation.</li>
+                <br>
+              </ol>
+              <h3>Tab Windows for Canvas View</h3>
+              <p>We also came up with a way to </p>
+
+            </div>
+          </div>
+
+          <div class="spacer"></div>
+        </div>
+      </div>
+
+      <div class="contentwrap">
+        <h2 class="hide"></h2>
+        <ul class="projects">
+          <li>
+            <div class="processimage">
+              <img src="/images/bmc.png" alt="Dark mode user interface" />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
