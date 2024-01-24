@@ -65,7 +65,7 @@ html {
   width: var(--middle);
   display: flex;
   flex-direction: column;
-  padding: 6rem 2rem;
+  padding: 6rem 0;
   margin: 0;
   gap: 2rem;
 }
@@ -86,6 +86,7 @@ html {
 
 .projects li {
   display: flex;
+  /* width: fit-content; */
   gap: 2rem;
   justify-content: space-between;
   list-style-type: none;
@@ -108,13 +109,13 @@ html {
   display: flex;
   width: fit-content;
   /* height: 100%; */
-  border-radius: 0.7rem;
+/*   border-radius: 0.5rem; */
 }
 
 .image img {
   /* height: max-content; */
   width: 100%;
-  border-radius: 0.7rem;
+  border-radius: 0.5rem;
 }
 
 .hello .image {
@@ -128,13 +129,13 @@ html {
 .processimage {
   display: flex;
   max-width: var(--middle);
-  border-radius: 0.7rem;
+/*   border-radius: 0.5rem; */
 }
 
 .processimage img {
   width: 100%;
   height: 100%;
-  border-radius: 0.7rem;
+  border-radius: 0.5rem;
 }
 
 .textcontent {

@@ -7,8 +7,12 @@ a.button {
   -moz-appearance: button;
   appearance: button;
 
-  padding: 0.7rem 1.6rem;
+  padding: 0.7rem 1.3rem;
   border-radius: 0.5rem;
+}
+
+.button:active {
+  transform: translateY(0.2rem);
 }
 
 a#backbutton {

@@ -1,11 +1,11 @@
 :root {
   --firbackcolor: rgba(255, 255, 255, 1);
   --secbackcolor: rgba(0, 0, 0, 0.05);
-  --buttoncolor: rgb(221, 221, 221);
-  --buttonhover: rgb(233, 233, 233);
-  --projectinfo: rgba(0, 0, 0, 0.6);
-  --client: rgb(219, 235, 241);
-  --roles: rgb(235, 224, 241);
+  --buttoncolor: #e2e2e2;
+  --buttonhover: #ebebeb;
+  --projectinfo: rgba(0, 0, 0, 0.7);
+  --client: rgb(220, 220, 235);
+  --roles: rgb(231, 233, 219);
 
 html {
   background-color: var(--firbackcolor);

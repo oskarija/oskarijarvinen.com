@@ -47,11 +47,12 @@ a.button {
   padding: 0.5rem 0.7rem;
   margin-bottom: 0.4rem;
   border-radius: 0.4rem;
-  font-size: 0.74rem;
+  font-size: 0.7rem;
 }
 
 .projectname {
   max-width: 22ch;
+  margin-bottom: 1rem;
 }
 
 .bold {
