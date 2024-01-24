@@ -8,7 +8,7 @@ a.button {
   appearance: button;
 
   padding: 0.7rem 1.6rem;
-  border-radius: 0.7rem;
+  border-radius: 0.5rem;
 }
 
 a#backbutton {
@@ -25,26 +25,27 @@ a#backbutton {
 
 .backbuttonspacer {
   position: fixed;
-  top: 7rem;
+  top: 6rem;
   right: 50%;
   text-align: center;
   /*line-height: 100px;*/
-  /*background-color: red; */ /* For debugging */
+  /* background-color: red; */  
+  /* For debugging */
 }
 
 #backbutton {
   position: relative;
-  right: 31rem;
+  right: 25rem;
 }
 
 /** Change button to the right side */
-@media screen and (min-width: 971px) and (max-width: 1400px) {
+@media screen and (min-width: 1080px) and (max-width: 1400px) {
   #backbutton {
     left: 24rem;
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 970px) {
+@media screen and (min-width: 700px) and (max-width: 1080px) {
   .backbuttonspacer {
     position: fixed;
     top: 3rem;

@@ -4,7 +4,8 @@
   --buttoncolor: rgb(221, 221, 221);
   --buttonhover: rgb(233, 233, 233);
   --projectinfo: rgba(0, 0, 0, 0.6);
-}
+  --client: rgb(219, 235, 241);
+  --roles: rgb(235, 224, 241);
 
 html {
   background-color: var(--firbackcolor);
@@ -12,12 +13,16 @@ html {
 
 .image,
 .processimage {
-  background-color: var(--firbackcolor);
+  background-color: var(--secbackcolor);
 }
 
 .projectswrap,
 .contentwrapdark {
   background-color: var(--secbackcolor);
+}
+
+.projects li {
+  background-color: var(--firbackcolor);
 }
 
 a.button {
@@ -44,4 +49,12 @@ a#backbutton:hover {
 
 .projectinfo {
   color: var(--projectinfo);
+}
+
+.client p {
+  background-color: var(--client);
+}
+
+.roles p {
+  background-color: var(--roles);;
 }

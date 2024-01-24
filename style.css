@@ -1,5 +1,6 @@
 :root {
-  --middle: 60rem;
+  --middle: 48rem;
+  --middlehalf: 23rem;
 }
 
 html {
@@ -10,30 +11,6 @@ html {
 
 .hide {
   display: none;
-}
-
-.image {
-  display: flex;
-  max-width: 28rem;
-  border-radius: 0.7rem;
-}
-
-.image img {
-  width: 100%;
-  height: 100%;
-  border-radius: 0.7rem;
-}
-
-.processimage {
-  display: flex;
-  max-width: var(--middle);
-  border-radius: 0.7rem;
-}
-
-.processimage img {
-  width: 100%;
-  height: 100%;
-  border-radius: 0.7rem;
 }
 
 .wrapper {
@@ -56,7 +33,7 @@ html {
 }
 
 .contentwrapdark {
-  padding: 6rem 2rem;
+  padding: 4rem 2rem;
 }
 
 .aboutwrap {
@@ -68,6 +45,7 @@ html {
 .content {
   width: var(--middle);
   display: flex;
+  justify-content: space-between;
   gap: 2rem;
 }
 
@@ -77,18 +55,26 @@ html {
 
 .hellocontainer {
   display: flex;
-  width: 100%;
+  width: 50%;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.projects,
+.projects {
+  width: var(--middle);
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 2rem;
+  margin: 0;
+  gap: 2rem;
+}
+
 .images {
   width: var(--middle);
   display: flex;
   flex-direction: column;
-  padding: 3rem 2rem;
+  padding: 0;
   margin: 0;
 }
 
@@ -98,24 +84,73 @@ html {
   }
 }
 
-.projects li,
-.images li {
+.projects li {
   display: flex;
-  width: 100%;
   gap: 2rem;
   justify-content: space-between;
   list-style-type: none;
-  max-width: var(--middle);
   margin: 0;
-  padding: 3rem 0;
+  padding: 2rem 2.11rem;
+  border-radius: 0.7rem;
+}
+
+.images li {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  list-style-type: none;
+  /* max-width: var(--middle); */
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  display: flex;
+  width: fit-content;
+  /* height: 100%; */
+  border-radius: 0.7rem;
+}
+
+.image img {
+  /* height: max-content; */
+  width: 100%;
+  border-radius: 0.7rem;
+}
+
+.hello .image {
+  width: var(--middlehalf);
+}
+
+.projects .image {
+  width: var(--middlehalf);
+}
+
+.processimage {
+  display: flex;
+  max-width: var(--middle);
+  border-radius: 0.7rem;
+}
+
+.processimage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.7rem;
 }
 
 .textcontent {
   display: flex;
+  width: fit-content;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  width: 100%;
+}
+
+.projectcard {
+  display: flex;
+  width: var(--middlehalf);
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .projectinfo {
@@ -160,7 +195,7 @@ ul .images {
 /* When screen width is under 1200px */
 @media screen and (max-width: 1200px) {
   :root {
-    --middle: 50rem;
+    --middle: 48rem;
   }
 }
 
@@ -175,12 +210,28 @@ ul .images {
     flex-direction: column;
   }
 
+  .hellocontainer {
+    width: 100%;
+  }
+
   .projects li {
     flex-direction: column-reverse;
+    height: fit-content;
   }
 
   .image {
-    max-width: 100%;
+    width: 100%;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .hello .image {
+    width: 100%;
+  }
+
+  .projects .image {
+    width: 100%;
   }
 
   .links {
@@ -223,16 +274,17 @@ ul .images {
   }
 
   .projects li {
-    padding: 4rem 0rem 2rem 0rem;
+    height: fit-content;
+    padding: 1rem 1rem;
   }
 
   .projects {
     padding-bottom: 4rem;
   }
 
-  .images {
+/*   .images {
     padding: var(--margin);
-  }
+  } */
 
   .links {
     flex-wrap: wrap;
