@@ -28,6 +28,20 @@ h3 {
   font-size: 1.3rem;
 }
 
+.hello p, .content p, .about p {
+  line-height: 1.4rem;
+}
+
+.client p, .roles p {
+  line-height: initial;
+}
+
+@media screen and (max-width: 500px) {
+  h3 {
+    font-size: 1.4rem;
+  }
+}
+
 a.button {
   font-size: 1rem;
   font-weight: 600;
@@ -51,8 +65,7 @@ a.button {
 }
 
 .projectname {
-  max-width: 22ch;
-  margin-bottom: 1rem;
+  margin-bottom: 1.3rem;
 }
 
 .bold {
