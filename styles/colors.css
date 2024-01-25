@@ -6,6 +6,7 @@
   --projectinfo: rgba(0, 0, 0, 0.7);
   --client: rgb(220, 220, 235);
   --roles: rgb(231, 233, 219);
+}
 
 html {
   background-color: var(--firbackcolor);
@@ -57,4 +58,24 @@ a#backbutton:hover {
 
 .roles p {
   background-color: var(--roles);
+}
+
+.contactwrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.phone, .email {
+  display: flex;
+  gap: 1rem;
+  background-color: aqua;
+  margin: 0;
+  padding: 1rem 1.4rem;
+  border-radius: 0.5rem;
+}
+
+.phone p, .email p {
+  margin: 0;
 }
