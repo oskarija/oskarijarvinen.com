@@ -1,0 +1,60 @@
+:root {
+  --firbackcolor: rgba(255, 255, 255, 1);
+  --secbackcolor: rgba(0, 0, 0, 0.05);
+  --buttoncolor: #e2e2e2;
+  --buttonhover: #ebebeb;
+  --projectinfo: rgba(0, 0, 0, 0.7);
+  --client: rgb(220, 220, 235);
+  --roles: rgb(231, 233, 219);
+
+html {
+  background-color: var(--firbackcolor);
+}
+
+.image,
+.processimage {
+  background-color: var(--secbackcolor);
+}
+
+.projectswrap,
+.contentwrapdark {
+  background-color: var(--secbackcolor);
+}
+
+.projects li {
+  background-color: var(--firbackcolor);
+}
+
+a.button {
+  color: initial;
+  background-color: var(--buttoncolor);
+  transition: 0.2s;
+}
+
+a.button:hover {
+  background-color: var(--buttonhover);
+  transition: 0.2s;
+}
+
+a#backbutton {
+  color: initial;
+  background-color: var(--buttoncolor);
+  transition: 0.2s;
+}
+
+a#backbutton:hover {
+  background-color: var(--buttonhover);
+  transition: 0.2s;
+}
+
+.projectinfo {
+  color: var(--projectinfo);
+}
+
+.client p {
+  background-color: var(--client);
+}
+
+.roles p {
+  background-color: var(--roles);
+}

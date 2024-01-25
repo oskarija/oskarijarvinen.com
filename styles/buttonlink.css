@@ -1,0 +1,100 @@
+a {
+  text-decoration: none;
+}
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  padding: 0.7rem 1.3rem;
+  border-radius: 0.5rem;
+}
+
+.button:active {
+  transform: translateY(0.2rem);
+}
+
+a#backbutton {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  font-size: 24px;
+  font-weight: 900;
+
+  padding: 0.7rem 1rem;
+  border-radius: 0.7rem;
+}
+
+.backbuttonspacer {
+  position: fixed;
+  top: 6rem;
+  right: 50%;
+  text-align: center;
+  /*line-height: 100px;*/
+  /* background-color: red; */  
+  /* For debugging */
+}
+
+#backbutton {
+  position: relative;
+  right: 25rem;
+}
+
+/** Change button to the right side */
+@media screen and (min-width: 1080px) and (max-width: 1400px) {
+  #backbutton {
+    left: 24rem;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1080px) {
+  .backbuttonspacer {
+    position: fixed;
+    top: 3rem;
+    right: 1rem;
+    text-align: center;
+    width: 1rem;
+    /* background-color: red; for debugging  */
+    /*line-height: 100px;*/
+  }
+
+  #backbutton {
+    position: relative;
+    top: 0px;
+    right: 3rem;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  .backbuttonspacer {
+    position: fixed;
+    top: 3rem;
+    left: 1rem;
+    text-align: center;
+    width: 1rem;
+    /* background-color: red; for debugging */
+    /*line-height: 100px;*/
+  }
+
+  #backbutton {
+    position: relative;
+    left: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .backbuttonspacer {
+    position: fixed;
+    top: 3rem;
+    left: 1rem;
+    text-align: center;
+    width: 1rem;
+  }
+
+  #backbutton {
+    position: relative;
+    left: 0rem;
+  }
+}
