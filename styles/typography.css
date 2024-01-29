@@ -47,6 +47,16 @@ a.button {
   font-weight: 600;
 }
 
+.contactwrapper p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.contactitem, .contactitem p {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
 .hellotext {
   font-weight: 700;
 }
@@ -86,10 +96,6 @@ a.button {
 .textcontent li {
   margin: 1rem 0 1rem 0;
 }
-
-/* .projectdescription ::marker {
-  font-weight: 600;
-} */
 
 #turbiiniuserbase {
   margin: 0.15rem;

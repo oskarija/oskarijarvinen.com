@@ -48,6 +48,10 @@ a#backbutton:hover {
   transition: 0.2s;
 }
 
+a.contactitem {
+  color: inherit;
+}
+
 .projectinfo {
   color: var(--projectinfo);
 }
@@ -60,22 +64,5 @@ a#backbutton:hover {
   background-color: var(--roles);
 }
 
-.contactwrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1rem;
-}
 
-.phone, .email {
-  display: flex;
-  gap: 1rem;
-  background-color: aqua;
-  margin: 0;
-  padding: 1rem 1.4rem;
-  border-radius: 0.5rem;
-}
 
-.phone p, .email p {
-  margin: 0;
-}

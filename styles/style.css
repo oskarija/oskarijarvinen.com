@@ -203,6 +203,13 @@ ul .images {
   align-items: center;
 }
 
+.contactwrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
 /* When screen width is under 1200px */
 @media screen and (max-width: 1200px) {
   :root {

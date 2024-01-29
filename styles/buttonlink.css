@@ -27,6 +27,21 @@ a#backbutton {
   border-radius: 0.7rem;
 }
 
+.contactitem div {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.contactitem a {
+  text-decoration: none;
+}
+
+.contactsvg {
+  width: 1.15rem;
+  height: 1.15rem;
+}
+
 .backbuttonspacer {
   position: fixed;
   top: 6rem;
