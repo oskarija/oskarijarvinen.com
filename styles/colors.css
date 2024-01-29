@@ -26,13 +26,13 @@ html {
   background-color: var(--firbackcolor);
 }
 
-a.button {
+a.button, .contactitem div button {
   color: initial;
   background-color: var(--buttoncolor);
   transition: 0.2s;
 }
 
-a.button:hover {
+a.button:hover, .contactitem div button:hover {
   background-color: var(--buttonhover);
   transition: 0.2s;
 }

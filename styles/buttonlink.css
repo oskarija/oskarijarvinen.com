@@ -33,8 +33,19 @@ a#backbutton {
   align-items: center;
 }
 
-.contactitem a {
-  text-decoration: none;
+.contactitem div button {
+  display: flex;
+  margin: 0;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+}
+
+.contactitem div button:hover {
+  cursor: pointer;
+}
+
+.contactlinksvg {
+  width: 1rem;
 }
 
 .contactsvg {
@@ -47,9 +58,6 @@ a#backbutton {
   top: 6rem;
   right: 50%;
   text-align: center;
-  /*line-height: 100px;*/
-  /* background-color: red; */  
-  /* For debugging */
 }
 
 #backbutton {
