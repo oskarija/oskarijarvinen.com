@@ -1,5 +1,7 @@
 body {
   font-family: "Inter", sans-serif;
+  /* font-family: "Mulish", sans-serif; */
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 html {
@@ -28,11 +30,31 @@ h3 {
   font-size: 1.3rem;
 }
 
-.hello p, .content p, .about p {
+.hello p,
+.content p,
+.about p {
   line-height: 1.4rem;
 }
 
-.client p, .roles p {
+.greeting h2 {
+  font-size: 2.4rem;
+  font-variation-settings: "wght" 700;
+  margin: 0;
+}
+
+p.hellotext {
+  font-size: 1.2rem;
+  line-height: 1.15;
+  font-weight: 500;
+}
+
+/* .hellotext span {
+  font-variation-settings: "wght" 450;
+  font-variation-settings: "wght" 650;
+} */
+
+.client p,
+.roles p {
   line-height: initial;
 }
 
@@ -44,7 +66,7 @@ h3 {
 
 a.button {
   font-size: 1rem;
-  font-weight: 600;
+  font-variation-settings: "wght" 550;
 }
 
 .contactwrapper p {
@@ -52,13 +74,10 @@ a.button {
   margin: 0;
 }
 
-.contactitem, .contactitem p {
+.contactitem,
+.contactitem p {
   font-size: 0.8rem;
   font-weight: 600;
-}
-
-.hellotext {
-  font-weight: 700;
 }
 
 .projectinfo {
@@ -75,7 +94,8 @@ a.button {
 }
 
 .projectname {
-  margin-bottom: 1.3rem;
+  margin-bottom: 0.7rem;
+  font-weight: 800;
 }
 
 .bold {

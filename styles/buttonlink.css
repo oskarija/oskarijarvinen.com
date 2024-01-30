@@ -1,3 +1,9 @@
+:root {
+  --buttonpadding: 0.6rem 1.2rem;
+  --buttonborderradius: 0.5rem;
+  --backbuttonpadding: 0.7rem 1rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -7,8 +13,8 @@ a.button {
   -moz-appearance: button;
   appearance: button;
 
-  padding: 0.7rem 1.3rem;
-  border-radius: 0.5rem;
+  padding: var(--buttonpadding);
+  border-radius: var(--buttonborderradius);
 }
 
 .button:active {
@@ -23,8 +29,8 @@ a#backbutton {
   font-size: 24px;
   font-weight: 900;
 
-  padding: 0.7rem 1rem;
-  border-radius: 0.7rem;
+  padding: var(--backbuttonpadding);
+  border-radius: var(--buttonborderradius);
 }
 
 .contactitem div {

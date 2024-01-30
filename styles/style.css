@@ -1,6 +1,7 @@
 :root {
   --middle: 48rem;
   --middlehalf: 23rem;
+  --wrapheight: 20rem;
 }
 
 html {
@@ -11,9 +12,9 @@ html {
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
-	html {
-		scroll-behavior: auto;
-	}
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 .hide {
@@ -60,7 +61,7 @@ html {
 }
 
 .spacer {
-  min-width: 12rem;
+  min-width: 6rem;
 }
 
 .hellocontainer {
@@ -97,6 +98,7 @@ html {
 .projects li {
   display: flex;
   /* width: fit-content; */
+  height: var(--wrapheight); /*! This has to change in smaller screen sizes */
   gap: 2rem;
   justify-content: space-between;
   list-style-type: none;
@@ -125,6 +127,7 @@ html {
 .image img {
   /* height: max-content; */
   width: 100%;
+  object-fit: cover;
   border-radius: 0.5rem;
 }
 
@@ -146,6 +149,16 @@ html {
   width: 100%;
   height: 100%;
   border-radius: 0.5rem;
+}
+
+.greeting {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.greeting img {
+  height: 2rem;
 }
 
 .textcontent {
@@ -210,12 +223,23 @@ ul .images {
   gap: 1rem;
 }
 
+.imgshadow {
+  box-shadow: 5px 5px 47px -5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 5px 5px 47px -5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 5px 5px 47px -5px rgba(0, 0, 0, 0.3);
+}
+
 /* When screen width is under 1200px */
 @media screen and (max-width: 1200px) {
   :root {
     --middle: 40rem;
     --middlehalf: 18rem;
+    --wrapheight: 17rem;
   }
+
+  /* .projects li {
+    height: fit-content;
+  } */
 }
 
 /* When screen width is under 860px */
@@ -241,7 +265,8 @@ ul .images {
     gap: 1rem;
   }
 
-  .projectcard, .images {
+  .projectcard,
+  .images {
     width: 100%;
   }
 
@@ -300,7 +325,8 @@ ul .images {
     padding: 2rem var(--margin);
   }
 
-  .projects li, .processimage {
+  .projects li,
+  .processimage {
     height: fit-content;
     padding: 1rem 1rem;
     border-radius: 0;
@@ -309,8 +335,8 @@ ul .images {
   .contentwrapdark {
     gap: 1rem;
   }
-  
-/*   .images {
+
+  /*   .images {
     padding: var(--margin);
   } */
 
@@ -323,7 +349,7 @@ ul .images {
     gap: 4rem;
   }
 
-/*   .images {
+  /*   .images {
     padding: var(--margin);
   } */
 
