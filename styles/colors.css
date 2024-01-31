@@ -1,5 +1,5 @@
 :root {
-  --firbackcolor: rgba(255, 255, 255, 1);
+  --firbackcolor: rgb(243, 243, 245);
   --secbackcolor: rgba(0, 0, 0, 0.05);
   --buttoncolor: #e2e2e2;
   --buttonhover: #ebebeb;
@@ -26,13 +26,27 @@ html {
   background-color: var(--firbackcolor);
 }
 
-a.button, .contactitem div button {
+.imgshadow {
+  box-shadow: 5px 5px 47px -5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 5px 5px 47px -5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 5px 5px 47px -5px rgba(0, 0, 0, 0.3);
+}
+
+.projects li {
+  box-shadow: 5px 5px 30px -5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 5px 5px 4730 -5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 5px 5px 30px -5px rgba(0, 0, 0, 0.1);
+}
+
+a.button,
+.contactitem div button {
   color: initial;
   background-color: var(--buttoncolor);
   transition: 0.2s;
 }
 
-a.button:hover, .contactitem div button:hover {
+a.button:hover,
+.contactitem div button:hover {
   background-color: var(--buttonhover);
   transition: 0.2s;
 }
@@ -63,6 +77,3 @@ a.contactitem {
 .roles p {
   background-color: var(--roles);
 }
-
-
-

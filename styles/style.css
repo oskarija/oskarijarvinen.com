@@ -223,12 +223,6 @@ ul .images {
   gap: 1rem;
 }
 
-.imgshadow {
-  box-shadow: 5px 5px 47px -5px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 5px 5px 47px -5px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 5px 5px 47px -5px rgba(0, 0, 0, 0.3);
-}
-
 /* When screen width is under 1200px */
 @media screen and (max-width: 1200px) {
   :root {
