@@ -220,7 +220,36 @@ ul .images {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 0.6rem;
+}
+
+.contactitemwrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.contactitemwrapper a {
+  height: 2rem;
+}
+
+.contactitem {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+a.contactitem {
+  margin: 0;
+  padding: 0;
+}
+
+.contactitem button {
+  display: flex;
+  align-items: center;
+  border: none;
 }
 
 /* When screen width is under 1200px */

@@ -1,8 +1,9 @@
 :root {
-  --firbackcolor: rgb(243, 243, 245);
+  --firbackcolor: rgb(255, 255, 255);
   --secbackcolor: rgba(0, 0, 0, 0.05);
-  --buttoncolor: #e2e2e2;
-  --buttonhover: #ebebeb;
+  --highlight: white;
+  --buttoncolor: #aa95b6;
+  --buttonhover: #9682a1;
   --projectinfo: rgba(0, 0, 0, 0.7);
   --client: rgb(220, 220, 235);
   --roles: rgb(231, 233, 219);
@@ -10,6 +11,10 @@
 
 html {
   background-color: var(--firbackcolor);
+}
+
+a {
+  color: inherit;
 }
 
 .image,
@@ -33,26 +38,60 @@ html {
 }
 
 .projects li {
-  box-shadow: 5px 5px 30px -5px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 5px 5px 4730 -5px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 5px 5px 30px -5px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 30px -5px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 5px 5px 4730 -5px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 5px 5px 30px -5px rgba(0, 0, 0, 00.08);
 }
 
 a.button,
-.contactitem div button {
-  color: initial;
-  background-color: var(--buttoncolor);
-  transition: 0.2s;
+a#backbutton {
+  color: var(--highlight);
+
+  background: hsla(157, 11%, 53%, 1);
+
+  background: linear-gradient(
+    45deg,
+    hsla(157, 11%, 53%, 1) 0%,
+    hsla(302, 17%, 32%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(157, 11%, 53%, 1) 0%,
+    hsla(302, 17%, 32%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(157, 11%, 53%, 1) 0%,
+    hsla(302, 17%, 32%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#799389", endColorstr="#5E435D", GradientType=1 );
+
+  transition: 0.4s ease-in-out;
 }
 
 a.button:hover,
-.contactitem div button:hover {
-  background-color: var(--buttonhover);
+a#backbutton:hover {
+  filter: hue-rotate(-20deg) brightness(1.2);
+  background-size: 120%;
+}
+
+.contactitem {
+  background-color: antiquewhite;
+}
+
+.contactitem div button {
   transition: 0.2s;
 }
 
-a#backbutton {
-  color: initial;
+.contactbutton object svg {
+  color: var(--highlight);
+}
+
+/* a#backbutton {
+  color: var(--highlight);
   background-color: var(--buttoncolor);
   transition: 0.2s;
 }
@@ -60,11 +99,7 @@ a#backbutton {
 a#backbutton:hover {
   background-color: var(--buttonhover);
   transition: 0.2s;
-}
-
-a.contactitem {
-  color: inherit;
-}
+} */
 
 .projectinfo {
   color: var(--projectinfo);
