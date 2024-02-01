@@ -162,15 +162,19 @@
             <div class="contactwrapper">
               <p>You can find ways to contact or follow me here:</p>
               <div class="contactitemwrapper">
-                <div class="contactitem" class="phone">
-                  <object
+                <div
+                  onclick="copyPhoneNumber()"
+                  class="contactitem"
+                  class="phone"
+                >
+                  <!-- <object
                     class="contactsvg"
                     type="image/svg+xml"
                     data="/svgs/phone.svg"
                     alt="Phone icon"
-                  ></object>
-                  <p>050 575 8178</p>
-                  <button class="contactbutton" onclick="copyPhoneNumber()">
+                  ></object> -->
+                  <p><a onclick="" href="">050 575 8178</a></p>
+                  <button class="contactbutton" onclick="">
                     <img
                       src="/svgs/copy.svg"
                       alt="Copy phone number to clipboard"
@@ -179,43 +183,51 @@
                 </div>
 
                 <div class="contactitem" class="email">
-                  <object
+                  <!-- <object
                     class="contactsvg"
                     type="image/svg+xml"
                     data="/svgs/mail.svg"
                     alt="Phone icon"
-                  ></object>
-                  <p>oskari.jarvinen@gmail.com</p>
+                  ></object> -->
+                  <p>
+                    <a href="mailto:oskari.jarvinen@gmail.com"
+                      >oskari.jarvinen@gmail.com</a
+                    >
+                  </p>
                   <button class="contactbutton" onclick="copyEmail()">
                     <img src="/svgs/copy.svg" alt="Copy email to clipboard" />
                   </button>
                 </div>
 
                 <div class="contactitem" class="instagram">
-                  <object
+                  <!-- <object
                     class="contactsvg"
                     type="image/svg+xml"
                     data="/svgs/instagram.svg"
                     alt="Phone icon"
-                  ></object>
-                  <a href="https://www.instagram.com/oskujarvinen/"
-                    ><p>Instagram</p></a
-                  >
+                  ></object> -->
+                  <p>
+                    <a href="https://www.instagram.com/oskujarvinen/"
+                      >Instagram</a
+                    >
+                  </p>
                   <button class="contactbutton">
                     <img src="/svgs/external-link.svg" alt="Go to instagram" />
                   </button>
                 </div>
 
                 <div class="contactitem" class="linkedin">
-                  <object
+                  <!-- <object
                     class="contactsvg"
                     type="image/svg+xml"
                     data="/svgs/linkedin.svg"
                     alt="Phone icon"
-                  ></object>
-                  <a href="https://www.linkedin.com/in/oskari-jarvinen/"
-                    ><p>LinkedIn</p></a
-                  >
+                  ></object> -->
+                  <p>
+                    <a href="https://www.linkedin.com/in/oskari-jarvinen/"
+                      >LinkedIn</a
+                    >
+                  </p>
                   <button class="contactbutton">
                     <img src="/svgs/external-link.svg" alt="Go to LinkedIn" />
                   </button>

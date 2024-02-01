@@ -7,6 +7,7 @@
   --projectinfo: rgba(0, 0, 0, 0.7);
   --client: rgb(220, 220, 235);
   --roles: rgb(231, 233, 219);
+  --contacttext: rgb(90, 90, 90);
 }
 
 html {
@@ -49,57 +50,41 @@ a#backbutton {
 
   background: hsla(157, 11%, 53%, 1);
 
-  background: linear-gradient(
-    45deg,
-    hsla(157, 11%, 53%, 1) 0%,
-    hsla(302, 17%, 32%, 1) 100%
-  );
+  background: linear-gradient(45deg,
+      hsla(157, 11%, 53%, 1) 0%,
+      hsla(302, 17%, 32%, 1) 100%);
 
-  background: -moz-linear-gradient(
-    45deg,
-    hsla(157, 11%, 53%, 1) 0%,
-    hsla(302, 17%, 32%, 1) 100%
-  );
+  background: -moz-linear-gradient(45deg,
+      hsla(157, 11%, 53%, 1) 0%,
+      hsla(302, 17%, 32%, 1) 100%);
 
-  background: -webkit-linear-gradient(
-    45deg,
-    hsla(157, 11%, 53%, 1) 0%,
-    hsla(302, 17%, 32%, 1) 100%
-  );
+  background: -webkit-linear-gradient(45deg,
+      hsla(157, 11%, 53%, 1) 0%,
+      hsla(302, 17%, 32%, 1) 100%);
 
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#799389", endColorstr="#5E435D", GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#799389", endColorstr="#5E435D", GradientType=1);
 
   transition: 0.4s ease-in-out;
 }
 
 a.button:hover,
 a#backbutton:hover {
-  filter: hue-rotate(-20deg) brightness(1.2);
-  background-size: 120%;
+  filter: hue-rotate(-20deg) brightness(1.1);
+  background-size: 140%;
+  transition: 0.4s ease-in-out;
 }
 
 .contactitem {
-  background-color: antiquewhite;
+  background-color: var(--secbackcolor);
+  cursor: pointer;
+  color: var(--contacttext);
 }
 
-.contactitem div button {
+.contactitem button {
   transition: 0.2s;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
 }
-
-.contactbutton object svg {
-  color: var(--highlight);
-}
-
-/* a#backbutton {
-  color: var(--highlight);
-  background-color: var(--buttoncolor);
-  transition: 0.2s;
-}
-
-a#backbutton:hover {
-  background-color: var(--buttonhover);
-  transition: 0.2s;
-} */
 
 .projectinfo {
   color: var(--projectinfo);

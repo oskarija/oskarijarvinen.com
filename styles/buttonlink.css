@@ -40,11 +40,6 @@ button.contactbutton {
   padding: 0;
 }
 
-.contactitem div button {
-  border-radius: 0.36rem;
-  padding: 0.36rem;
-}
-
 .contactitem div button:hover {
   cursor: pointer;
 }
