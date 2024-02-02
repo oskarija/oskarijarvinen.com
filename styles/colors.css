@@ -5,8 +5,8 @@
   --buttoncolor: #aa95b6;
   --buttonhover: #9682a1;
   --projectinfo: rgba(0, 0, 0, 0.7);
-  --client: #2b587615;
-  --roles: #4e437617;
+  --client: #76622b15;
+  --roles: #43767617;
   --contacttext: rgb(0, 0, 0);
 }
 
@@ -62,16 +62,12 @@ a#backbutton {
 
 a.button:hover {
   filter: hue-rotate(-10deg) brightness(1.2);
-  /* background-position: right center; */
   background-size: 400%;
-  /* change the direction of the change here */
 }
 
 a#backbutton:hover {
   filter: hue-rotate(-10deg) brightness(1.2);
-  /* background-position: right center; */
   background-size: 500%;
-  /* change the direction of the change here */
   color: #fff;
 }
 
@@ -82,7 +78,7 @@ a#backbutton:hover {
 }
 
 .contactitem {
-  background-color: var(--client);
+  background-color: var(--roles);
   cursor: pointer;
   color: var(--contacttext);
 }

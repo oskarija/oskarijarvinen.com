@@ -85,7 +85,6 @@ button.contactbutton {
     text-align: center;
     width: 1rem;
     /* background-color: red; for debugging  */
-    /*line-height: 100px;*/
   }
 
   #backbutton {
@@ -103,7 +102,6 @@ button.contactbutton {
     text-align: center;
     width: 1rem;
     /* background-color: red; for debugging */
-    /*line-height: 100px;*/
   }
 
   #backbutton {
