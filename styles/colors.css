@@ -5,9 +5,9 @@
   --buttoncolor: #aa95b6;
   --buttonhover: #9682a1;
   --projectinfo: rgba(0, 0, 0, 0.7);
-  --client: rgb(220, 220, 235);
-  --roles: rgb(231, 233, 219);
-  --contacttext: rgb(90, 90, 90);
+  --client: #2b587615;
+  --roles: #4e437617;
+  --contacttext: rgb(0, 0, 0);
 }
 
 html {
@@ -33,49 +33,51 @@ a {
 }
 
 .imgshadow {
-  box-shadow: 5px 5px 47px -5px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 5px 5px 47px -5px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 5px 5px 47px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 47px -5px rgba(0, 0, 0, 0.11);
+  -webkit-box-shadow: 5px 5px 47px -5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 5px 5px 47px -5px rgba(0, 0, 0, 0.1);
 }
 
 .projects li {
   box-shadow: 5px 5px 30px -5px rgba(0, 0, 0, 0.08);
   -webkit-box-shadow: 5px 5px 4730 -5px rgba(0, 0, 0, 0.08);
-  -moz-box-shadow: 5px 5px 30px -5px rgba(0, 0, 0, 00.08);
+  -moz-box-shadow: 5px 5px 30px -5px rgba(0, 0, 0, 0.08);
 }
 
 a.button,
 a#backbutton {
   color: var(--highlight);
 
-  background: hsla(157, 11%, 53%, 1);
+  background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%);
 
-  background: linear-gradient(45deg,
-      hsla(157, 11%, 53%, 1) 0%,
-      hsla(302, 17%, 32%, 1) 100%);
-
-  background: -moz-linear-gradient(45deg,
-      hsla(157, 11%, 53%, 1) 0%,
-      hsla(302, 17%, 32%, 1) 100%);
-
-  background: -webkit-linear-gradient(45deg,
-      hsla(157, 11%, 53%, 1) 0%,
-      hsla(302, 17%, 32%, 1) 100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
 
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#799389", endColorstr="#5E435D", GradientType=1);
 
   transition: 0.4s ease-in-out;
 }
 
-a.button:hover,
+a.button:hover {
+  filter: hue-rotate(-10deg) brightness(1.2);
+  /* background-position: right center; */
+  background-size: 400%;
+  /* change the direction of the change here */
+
+}
+
 a#backbutton:hover {
-  filter: hue-rotate(-20deg) brightness(1.1);
-  background-size: 140%;
-  transition: 0.4s ease-in-out;
+  filter: hue-rotate(-10deg) brightness(1.2);
+  /* background-position: right center; */
+  background-size: 500%;
+  /* change the direction of the change here */
+  color: #fff;
 }
 
 .contactitem {
-  background-color: var(--secbackcolor);
+  background-color: var(--client);
   cursor: pointer;
   color: var(--contacttext);
 }
