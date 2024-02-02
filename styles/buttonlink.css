@@ -40,10 +40,6 @@ button.contactbutton {
   padding: 0;
 }
 
-.contactitem div button:hover {
-  cursor: pointer;
-}
-
 .contactitem div button img {
   display: flex;
   align-items: center;

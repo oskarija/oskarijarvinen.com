@@ -236,48 +236,21 @@ ul .images {
   gap: 0.5rem;
 }
 
-.contactitem {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: fit-content;
-  padding: 0.4rem 0.8rem;
-  gap: 0.6rem;
-  border-radius: 0.5rem;
+.feedback {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.4rem;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
 }
 
-a.contactitem {
-  margin: 0;
-  padding: 0;
-  line-height: 0;
-}
-
-.contactitem button {
-  border: none;
-}
-
-.contactitem {
-  height: 1.2rem;
-}
-
-.phone,
-.email {
-  transition: 0.4s;
-  overflow: hidden;
-}
-
-
-
-.phone:hover span,
-.email:hover span {
-  position: relative;
-
-}
-
-.phone:hover:before,
-.email:hover:before {
-  content: "copy to clipboard";
-  transition: 0.4s;
+.feedback.show {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 /* When screen width is under 1200px */
