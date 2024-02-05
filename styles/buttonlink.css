@@ -62,6 +62,7 @@ button.contactbutton {
   position: fixed;
   top: 5.65rem;
   right: 50%;
+  height: 3rem;
   text-align: center;
 }
 

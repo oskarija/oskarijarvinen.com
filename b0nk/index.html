@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/styles/normalize.css" />
     <link rel="stylesheet" href="/styles/typography.css" />
     <link rel="stylesheet" href="/styles/buttonlink.css" />
+    <link rel="stylesheet" href="/styles/contactbutton.css" />
     <link rel="stylesheet" href="/styles/colors.css" />
     <link rel="stylesheet" href="/styles/style.css" />
   </head>
@@ -187,6 +188,78 @@
           </li>
         </ul>
       </div>
+
+      <div id="aboutsection" class="aboutwrap">
+        <div class="about">
+          <div class="abouttext">
+            <div class="contactinfo">
+              <h2 class="">Contact</h2>
+              <div class="contactwrapper">
+                <p>Want to know more?</p>
+
+                <p>You can find ways to contact or follow me here:</p>
+                <div class="contactitemwrapper">
+                  <button
+                    onclick="copyPhoneNumber()"
+                    class="contactitem phone"
+                    type="button"
+                    data-hover="copy to clipboard"
+                    data-active="copy to clipboard"
+                  >
+                    <p>
+                      <span>+358 50 575 8178</span>
+                    </p>
+
+                    <img
+                      src="/svgs/copy.svg"
+                      alt="Copy phone number to clipboard"
+                    />
+                  </button>
+
+                  <button
+                    class="contactitem email"
+                    onclick="copyEmail()"
+                    type="button"
+                    data-hover="copy to clipboard"
+                    data-active="copy to clipboard"
+                  >
+                    <p>
+                      <span>oskari.jarvinen@gmail.com</span>
+                    </p>
+                    <img src="/svgs/copy.svg" alt="Copy email to clipboard" />
+                  </button>
+
+                  <div class="contactitem" class="instagram">
+                    <p>
+                      <a
+                        href="https://www.instagram.com/oskujarvinen/"
+                        target="_blank"
+                        >Instagram</a
+                      >
+                    </p>
+
+                    <img src="/svgs/external-link.svg" alt="Go to instagram" />
+                  </div>
+
+                  <div class="contactitem" class="linkedin">
+                    <p>
+                      <a
+                        href="https://www.linkedin.com/in/oskari-jarvinen/"
+                        target="_blank"
+                        >LinkedIn</a
+                      >
+                    </p>
+
+                    <img src="/svgs/external-link.svg" alt="Go to LinkedIn" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <div id="feedback" class="feedback"></div>
+    <script src="/script.js"></script>
   </body>
 </html>
