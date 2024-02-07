@@ -4,9 +4,9 @@
   --highlight: white;
   --buttoncolor: #aa95b6;
   --buttonhover: #9682a1;
-  --projectinfo: rgba(0, 0, 0, 0.7);
-  --client: #76622b15;
-  --roles: #43767617;
+  --projectinfo: rgba(0, 0, 0, 0.52);
+  --client: #00000010;
+  --roles: #00000010;
   --contacttext: rgb(0, 0, 0);
 }
 
@@ -48,7 +48,12 @@ a.button,
 a#backbutton {
   color: var(--highlight);
 
-  background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%);
+  background-image: linear-gradient(
+    to right,
+    #2b5876 0%,
+    #4e4376 51%,
+    #2b5876 100%
+  );
 
   transition: 0.5s;
   background-size: 200% auto;
@@ -73,7 +78,12 @@ a#backbutton:hover {
 
 .feedback {
   color: var(--highlight);
-  background-image: linear-gradient(to right, #2b5876b2 0%, #4e4376ad 51%, #2b5876a1 100%);
+  background-image: linear-gradient(
+    to right,
+    #2b5876b2 0%,
+    #4e4376ad 51%,
+    #2b5876a1 100%
+  );
   background-size: 200% auto;
 }
 

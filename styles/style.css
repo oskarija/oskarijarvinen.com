@@ -190,6 +190,12 @@ html {
   align-items: flex-start;
 }
 
+.projectinfo p {
+  padding: 0.38rem 0.7rem;
+  margin: 0;
+  border-radius: 0.4rem;
+}
+
 .client {
   display: flex;
   gap: 0.4rem;

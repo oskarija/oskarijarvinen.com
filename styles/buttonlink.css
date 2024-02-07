@@ -60,7 +60,7 @@ button.contactbutton {
 
 .backbuttonspacer {
   position: fixed;
-  top: 5.65rem;
+  top: 5.84rem;
   right: 50%;
   height: 3rem;
   text-align: center;
@@ -68,7 +68,7 @@ button.contactbutton {
 
 #backbutton {
   position: relative;
-  right: 25rem;
+  right: 26rem;
 }
 
 /** Change button to the right side */
