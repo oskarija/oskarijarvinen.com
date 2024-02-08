@@ -273,9 +273,9 @@ ul .images {
     --wrapheight: 17rem;
   }
 
-  /* .projects li {
+  .projects li {
     height: fit-content;
-  } */
+  }
 }
 
 /* When screen width is under 860px */
