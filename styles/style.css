@@ -142,7 +142,7 @@ html {
 
 .processimage {
   display: flex;
-  max-width: var(--middle);
+  width: 100%;
   border-radius: 0.5rem;
 }
 
