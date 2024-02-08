@@ -233,7 +233,7 @@ ul .images {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 1.4rem;
 }
 
 .contactitemwrapper {
@@ -246,6 +246,7 @@ ul .images {
   padding: 1rem 1.4rem 1rem 1.15rem;
   margin-bottom: 1rem;
   border-radius: 0 0.4rem 0.4rem 0;
+  list-style-type: none;
 }
 
 .feedback {

@@ -72,6 +72,10 @@ a.button {
   font-variation-settings: "wght" 650;
 }
 
+.contactwrapper h3 {
+  margin: 0;
+}
+
 .contactwrapper p {
   font-size: 1rem;
   margin: 0;
