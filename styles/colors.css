@@ -48,12 +48,10 @@ a.button,
 a#backbutton {
   color: var(--highlight);
 
-  background-image: linear-gradient(
-    to right,
-    #2b5876 0%,
-    #4e4376 51%,
-    #2b5876 100%
-  );
+  background-image: linear-gradient(to right,
+      #2b5876 0%,
+      #4e4376 51%,
+      #2b5876 100%);
 
   transition: 0.5s;
   background-size: 200% auto;
@@ -78,12 +76,10 @@ a#backbutton:hover {
 
 .feedback {
   color: var(--highlight);
-  background-image: linear-gradient(
-    to right,
-    #2b5876b2 0%,
-    #4e4376ad 51%,
-    #2b5876a1 100%
-  );
+  background-image: linear-gradient(to right,
+      #2b5876b2 0%,
+      #4e4376ad 51%,
+      #2b5876a1 100%);
   background-size: 200% auto;
 }
 
@@ -108,4 +104,9 @@ a#backbutton:hover {
 
 .roles p {
   background-color: var(--roles);
+}
+
+.snippet {
+  background-color: var(--client);
+  border-left: 0.2rem solid var(--buttoncolor);
 }

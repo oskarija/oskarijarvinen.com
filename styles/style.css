@@ -61,7 +61,7 @@ html {
 }
 
 .spacer {
-  min-width: 6rem;
+  min-width: 5rem;
 }
 
 .hellocontainer {
@@ -240,6 +240,12 @@ ul .images {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+.snippet {
+  padding: 1rem 1.4rem 1rem 1.15rem;
+  margin-bottom: 1rem;
+  border-radius: 0 0.4rem 0.4rem 0;
 }
 
 .feedback {
