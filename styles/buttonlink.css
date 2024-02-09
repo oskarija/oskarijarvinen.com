@@ -114,7 +114,7 @@ button.contactbutton {
 @media screen and (max-width: 500px) {
   .backbuttonspacer {
     position: fixed;
-    top: 3rem;
+    top: 2rem;
     left: 1rem;
     text-align: center;
     width: 1rem;

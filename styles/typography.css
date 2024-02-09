@@ -43,12 +43,12 @@ p {
 
 .greeting h2 {
   font-size: 1.6rem;
-  font-variation-settings: "wght" 700;
+  font-variation-settings: "wght" 800;
 }
 
 .hellocontainer p {
   font-size: 1.2rem;
-  font-variation-settings: "wght" 700;
+  font-variation-settings: "wght" 650;
 }
 
 /* .hellotext span {

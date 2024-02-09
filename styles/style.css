@@ -50,6 +50,7 @@ html {
 .aboutwrap {
   display: flex;
   justify-content: center;
+  /*  padding: 0 2rem; */
 }
 
 .hello,
@@ -291,6 +292,10 @@ ul .images {
     flex-direction: column;
   }
 
+  .about {
+    padding: 4rem 2rem;
+  }
+
   .hellocontainer {
     width: 100%;
   }
@@ -351,31 +356,57 @@ ul .images {
     width: 100%;
   }
 
+  .projectname {
+    margin-top: 2rem;
+  }
+
   .hello {
     width: 100%;
-    padding: 7rem var(--margin) 2rem var(--margin);
-    overflow: auto;
+    /* height: 140vh; */
+    padding: 4rem var(--margin) 2rem var(--margin);
+    /* overflow: auto; */
     gap: 2rem;
   }
 
+  .hello .image {
+    height: 50%;
+  }
+
+  .greeting2 p {
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+
   .about {
-    padding: 2rem var(--margin);
+    padding: 2rem var(--margin) 6rem var(--margin);
   }
 
   .projects li,
   .processimage {
     height: fit-content;
-    padding: 1rem 1rem;
+    padding: 2rem 1rem;
     border-radius: 0;
+  }
+
+  /*   div.links {
+    padding: 0;
+  } */
+
+  .projects li a.button {
+    margin-top: 1rem;
+  }
+
+  .client {
+    flex-wrap: wrap;
+  }
+
+  .roles {
+    flex-wrap: wrap;
   }
 
   .contentwrapdark {
     gap: 1rem;
   }
-
-  /*   .images {
-    padding: var(--margin);
-  } */
 
   ul.projects {
     padding: 0;
@@ -386,11 +417,11 @@ ul .images {
     gap: 4rem;
   }
 
-  /*   .images {
-    padding: var(--margin);
-  } */
-
   .links {
     flex-wrap: wrap;
+  }
+
+  #feedback {
+    white-space: nowrap;
   }
 }

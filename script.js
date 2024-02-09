@@ -16,6 +16,7 @@ function copyEmail() {
     });
 }
 
+// Show the text "copied to clipboard" as feedback
 function showFeedback() {
     const feedback = document.getElementById('feedback');
     feedback.textContent = 'Copied to clipboard';
@@ -25,3 +26,5 @@ function showFeedback() {
         feedback.classList.remove('show');
     }, 2000); // Adjust the time for how long you want the feedback to be displayed (in milliseconds)
 }
+
+//
