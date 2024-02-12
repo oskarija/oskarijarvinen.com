@@ -367,7 +367,7 @@ ul .images {
   .hello {
     width: 100%;
     /* height: 140vh; */
-    padding: 4rem var(--margin) 2rem var(--margin);
+    padding: 5rem var(--margin) 2rem var(--margin);
     /* overflow: auto; */
     gap: 2rem;
   }
