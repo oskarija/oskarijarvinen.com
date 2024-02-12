@@ -43,16 +43,13 @@ a {
   -moz-box-shadow: 5px 5px 30px -5px rgba(0, 0, 0, 0.08);
 }
 
-a.button,
-a#backbutton {
+a.button {
   color: var(--highlight);
 
-  background-image: linear-gradient(
-    to right,
-    #2b5876 0%,
-    #4e4376 51%,
-    #2b5876 100%
-  );
+  background-image: linear-gradient(to right,
+      #2b5876 0%,
+      #4e4376 51%,
+      #2b5876 100%);
 
   transition: 0.5s;
   background-size: 200% auto;
@@ -66,23 +63,37 @@ a#backbutton {
 
 a.button:hover {
   filter: hue-rotate(-10deg) brightness(1.2);
-  background-size: 400%;
+  background-size: 250%;
+}
+
+a#backbutton {
+  color: #ffffff;
+
+  border-radius: 4rem;
+
+  background-image: linear-gradient(to right,
+      #2b5876 0%,
+      #4e4376 51%,
+      #2b5876 100%);
+
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eeeeee3d;
+
+  font-size: 1.24rem;
 }
 
 a#backbutton:hover {
-  filter: hue-rotate(-10deg) brightness(1.2);
-  background-size: 500%;
-  color: #fff;
+  filter: hue-rotate(-8deg) brightness(1.2);
+  background-size: 250%;
 }
 
 .feedback {
   color: var(--highlight);
-  background-image: linear-gradient(
-    to right,
-    #2b5876b2 0%,
-    #4e4376ad 51%,
-    #2b5876a1 100%
-  );
+  background-image: linear-gradient(to right,
+      #2b5876b2 0%,
+      #4e4376ad 51%,
+      #2b5876a1 100%);
   background-size: 200% auto;
 }
 

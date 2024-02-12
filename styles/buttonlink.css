@@ -26,11 +26,13 @@ a#backbutton {
   -moz-appearance: button;
   appearance: button;
 
+  display: flex;
+
+
   font-size: 24px;
   font-weight: 900;
 
-  padding: var(--backbuttonpadding);
-  border-radius: var(--buttonborderradius);
+  padding: 0.74rem 0.9rem;
 }
 
 button.contactbutton {
