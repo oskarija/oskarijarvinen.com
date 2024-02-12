@@ -185,9 +185,9 @@ html {
   gap: 1rem;
 }
 
-.projectcard a.button {
+/* .projectcard a.button {
   margin-top: 0.6rem;
-}
+} */
 
 .projectinfo {
   display: flex;
