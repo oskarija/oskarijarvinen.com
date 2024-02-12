@@ -1,6 +1,6 @@
 function copyPhoneNumber() {
     /* Copy text into clipboard */
-    navigator.clipboard.writeText("+35850505758178").then(function() {
+    navigator.clipboard.writeText("+358505758178").then(function() {
         showFeedback();
     }).catch(function(error) {
         console.error('Failed to copy:', error);
