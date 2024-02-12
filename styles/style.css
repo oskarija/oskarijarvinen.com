@@ -82,6 +82,10 @@ html {
   gap: 2rem;
 }
 
+.projects li {
+  align-items: start;
+}
+
 .images {
   width: var(--middle);
   display: flex;
