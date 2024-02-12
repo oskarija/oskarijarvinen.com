@@ -1,6 +1,6 @@
 :root {
-  --firbackcolor: rgb(255, 255, 255);
-  --secbackcolor: rgba(0, 0, 0, 0.05);
+  --firbackcolor: rgb(245, 246, 248);
+  --secbackcolor: rgba(0, 0, 0, 0.04);
   --highlight: white;
   --buttoncolor: #aa95b6;
   --buttonhover: #9682a1;
@@ -78,7 +78,7 @@ a#backbutton {
 
   transition: 0.5s;
   background-size: 200% auto;
-  box-shadow: 0 0 20px #eeeeee3d;
+  box-shadow: 0 0 20px #eeeeee13;
 
   font-size: 1.24rem;
 }

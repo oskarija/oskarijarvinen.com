@@ -103,7 +103,7 @@ h3.projectname {
 }
 
 .projectname {
-  margin-bottom: 0.7rem;
+  margin-bottom: 1rem;
   font-weight: 800;
 }
 
@@ -136,5 +136,5 @@ h3.projectname {
 
 .snippet {
   font-variation-settings: "wght" 450;
-  font-style: oblique 30deg;
+  font-style: oblique 14deg;
 }

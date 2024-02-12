@@ -182,7 +182,7 @@ html {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 0.6rem;
+  gap: 1rem;
 }
 
 .projectcard a.button {
