@@ -1,5 +1,5 @@
 :root {
-  --buttonpadding: 0.6rem 1.2rem;
+  --buttonpadding: 0.6rem 1rem 0.6rem 1.2rem;
   --buttonborderradius: 0.5rem;
   --backbuttonpadding: 0.7rem 1rem;
 }
