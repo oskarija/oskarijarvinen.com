@@ -46,15 +46,16 @@ a {
 a.button {
   color: var(--highlight);
 
-  background-image: linear-gradient(to right,
-      #2b5876 0%,
-      #4e4376 51%,
-      #2b5876 100%);
+  background-image: linear-gradient(
+    to right,
+    #2b5876 0%,
+    #4e4376 51%,
+    #2b5876 100%
+  );
 
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
-  box-shadow: 0 0 20px #eeeeee3d;
 
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#799389", endColorstr="#5E435D", GradientType=1);
 
@@ -71,10 +72,12 @@ a#backbutton {
 
   border-radius: 4rem;
 
-  background-image: linear-gradient(to right,
-      #2b5876 0%,
-      #4e4376 51%,
-      #2b5876 100%);
+  background-image: linear-gradient(
+    to right,
+    #2b5876 0%,
+    #4e4376 51%,
+    #2b5876 100%
+  );
 
   transition: 0.5s;
   background-size: 200% auto;
@@ -90,10 +93,12 @@ a#backbutton:hover {
 
 .feedback {
   color: var(--highlight);
-  background-image: linear-gradient(to right,
-      #2b5876b2 0%,
-      #4e4376ad 51%,
-      #2b5876a1 100%);
+  background-image: linear-gradient(
+    to right,
+    #2b5876b2 0%,
+    #4e4376ad 51%,
+    #2b5876a1 100%
+  );
   background-size: 200% auto;
 }
 

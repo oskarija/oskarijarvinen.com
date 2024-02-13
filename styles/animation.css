@@ -1,0 +1,32 @@
+.projects li {
+  /* will-change: scale; */
+  animation: fade linear both;
+  animation-timeline: view(block);
+  animation-range: entry 15% contain 25%;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    /* transform: translate(0, 10%);
+    transform: scale(0.98, 0.98); */
+  }
+  100% {
+    opacity: 1;
+    /* transform: translate(0%);
+    transform: scale(1, 1); */
+  }
+}
+
+/* .hello {
+  animation: appear 1.4s linear forwards;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
