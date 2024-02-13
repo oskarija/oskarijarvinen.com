@@ -366,7 +366,7 @@ ul .images {
 
   .hello {
     width: 100%;
-    padding: 8rem var(--margin) 2rem var(--margin);
+    padding: 6rem var(--margin) 2rem var(--margin);
     /* overflow: auto; */
     gap: 8rem;
   }
