@@ -48,8 +48,6 @@ p {
   font-variation-settings: "wght" 800;
 }
 
-.hellocontainer p {}
-
 /* .hellotext span {
   font-variation-settings: "wght" 450;
   font-variation-settings: "wght" 650;
@@ -136,4 +134,9 @@ h3.projectname {
 .snippet {
   font-variation-settings: "wght" 450;
   font-style: oblique 14deg;
+}
+
+.link {
+  font-variation-settings: "wght" 550;
+  transition: 0.2s;
 }
