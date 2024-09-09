@@ -95,7 +95,7 @@ html {
 }
 
 @media screen and (min-width: 861px) {
-  .projects li:nth-child(odd) {
+  .projects li:nth-child(even) {
     flex-direction: row-reverse;
   }
 }
