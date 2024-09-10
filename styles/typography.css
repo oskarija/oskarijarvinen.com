@@ -136,6 +136,22 @@ h3.projectname {
   font-style: oblique 14deg;
 }
 
+.snippet2 {
+  font-variation-settings: "wght" 400;
+  font-style: oblique 14deg;
+  line-height: 1.4rem;
+}
+
+q::before,
+q::after {
+  font-variation-settings: "wght" 400;
+  font-size: 1.4rem;
+}
+
+p.author {
+  font-variation-settings: "wght" 400;
+}
+
 .link {
   font-variation-settings: "wght" 550;
   transition: 0.2s;

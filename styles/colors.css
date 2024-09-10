@@ -129,9 +129,8 @@ a#backbutton:hover {
   transition: 0.4s;
 }
 
-.snippet {
-  background-color: var(--client);
-  border-left: 0.2rem solid var(--buttoncolor);
+.snippet2 {
+  background-color: var(--secbackcolor);
 }
 
 .link:hover {
