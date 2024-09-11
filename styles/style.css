@@ -287,6 +287,11 @@ p.author {
   pointer-events: auto;
 }
 
+.whatpplsay {
+  display: flex;
+  flex-direction: column;
+}
+
 /* When screen width is under 1200px */
 @media screen and (max-width: 1200px) {
   :root {
